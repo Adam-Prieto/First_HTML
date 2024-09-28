@@ -12,4 +12,4 @@ Just to make sure that I can work with html in VS Code, I want to see if I can p
 
 ## Push #2 - An update and conslusion to html
 
-I've decided to 
+I've decided that my html project is up to par and would like to showcase what I've learned thus far. Please find a simple html project in this repo.
