@@ -19,3 +19,20 @@ a:visited {
 a:hover, a:active {
     color: #eee;
 }
+
+
+table {
+    border-collapse: collapse;
+    width: 1%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    margin: 10px 0;
+}

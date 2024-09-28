@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Adam P">
+    <meta name="description" content="This page contains information about tables.">
+    <title>Tables in HTML</title>
+    <link rel="icon" href="icons/frequency.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        caption {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tables!</h1>
+    <hr>
+
+    <section id="Math Class Table">
+        <h2>
+           Math classes I took to earn my Applied Math Degree
+        </h2>
+        <table>
+            <caption>Math Classes I Took</caption>
+            <tr>
+                <th>Class Number</th>
+                <th>Class Name</th>
+                <th>Brief description</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Calculus I</td>
+                <td>A introductory course that most STEM Majors take that introduces foundational calculus content
+                    like Limits, Derivatives, Optimiztion, Position, Velocity and Acceleration.
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Calculus II</td>
+                <td>Continues where Calculus I left off by introducing and applying integration and related 
+                    techniques. Specific examples include integration techniques, area under the curve, a brief
+                    introdution to Numerical Analysis and Numerical Methods, and usually concludes with Taylor 
+                    and Maclarin Series. 
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Calculus III</td>
+                <td>Although not usually taken by Computer Science Majors, Calc III takes everything covered 
+                    in Calculus I & II and literally takes it up a notch -- in this case to a third dimension.
+                    Topics covered include Lagrange Multipliers; Line and Surface Integrals; Divergence and 
+                    Curl; and powerful Integral Theorems like Green's, Stokes' and Gauss's.    
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Differential Equations</td>
+                <td>Differential Equations builds on the concepts from Calculus I, II, and III to explore 
+                    how mathematical models can describe dynamic systems. This course delves into first-order 
+                    and higher-order differential equations, methods of solving them, and their applications 
+                    in various fields. Topics include homogeneous and non-homogeneous equations, systems of 
+                    differential equations, and techniques such as separation of variables and integrating 
+                    factors. Students will also learn about the qualitative behavior of solutions, stability 
+                    analysis, and special functions, equipping them with essential tools for modeling 
+                    real-world phenomena in physics, engineering, and beyond.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Linear Algebra</td>
+                <td>While often a core requirement for many majors, Linear Algebra is particularly invaluable for 
+                    Computer Science students, as it provides the mathematical foundation for various computational 
+                    techniques and algorithms. This course covers essential concepts such as vector spaces, linear 
+                    transformations, matrix operations, and eigenvalues and eigenvectors. Students will explore 
+                    applications in areas like computer graphics, where transformations and rotations are crucial; 
+                    machine learning, where data can be represented and manipulated as matrices; and network theory, 
+                    which relies on graph representations. By understanding these concepts, students will be 
+                    well-equipped to tackle complex problems in programming, data analysis, and artificial 
+                    intelligence, making Linear Algebra a key component of their computational toolkit.
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Introductory Probability and Statistics</td>
+                <td>
+                    Probability and Statistics is a vital course for students in Computer Science, providing essential 
+                    tools for data analysis and decision-making under uncertainty. This course introduces foundational 
+                    concepts such as random variables, probability distributions, and statistical inference, helping 
+                    students understand how to model real-world phenomena. Topics include descriptive statistics, 
+                    hypothesis testing, confidence intervals, and regression analysis. Emphasizing applications in fields 
+                    like data science, machine learning, and algorithm design, students will learn how to analyze data 
+                    sets, make predictions, and draw conclusions based on statistical evidence. By mastering these 
+                    concepts, students will gain the skills necessary to handle data-driven challenges and contribute to 
+                    innovative solutions in technology and research.
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Introduction to Discrete Mathematics</td>
+                <td>A First Course in Discrete Mathematics is essential for students in Computer Science and related fields, 
+                    as it lays the groundwork for understanding mathematical reasoning and proof techniques. This course 
+                    introduces fundamental concepts such as logic, set theory, combinatorics, and graph theory, all while 
+                    emphasizing the importance of rigorous proof methods. Students will learn various proof techniques, 
+                    including direct proof, proof by contradiction, and induction, which are crucial for validating 
+                    mathematical statements. Applications of discrete mathematics are explored in algorithms, data structures, 
+                    and cryptography, making it particularly relevant for computational problem-solving. By developing 
+                    strong proof skills and a solid understanding of discrete structures, students will be well-prepared for 
+                    advanced studies in computer science and mathematics.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Partial Differential Equations</td>
+                <td>A First Course in Partial Differential Equations (PDEs) provides a comprehensive understanding 
+                    of mathematical techniques used to model and solve complex phenomena across various disciplines. This course 
+                    covers essential topics such as the classification of PDEs, methods of solution for linear and nonlinear 
+                    equations, and boundary and initial value problems. Applications in adjacent fields about such as 
+                    physics, engineering, 
+                    and finance, and common topics induce heat conduction, wave propagation, and fluid dynamics. By employing 
+                    techniques like 
+                    separation of variables, Fourier series, and transform methods, learners will gain the skills necessary to 
+                    analyze and solve real-world problems. With a strong emphasis on both theoretical foundations and practical 
+                    applications, this course equips mathematicians to tackle advanced mathematical modeling and analytical 
+                    challenges in their future studies and careers.
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Numerical Analysis I</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Numerical Analysis II</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Foundations of Geometry</td>
+                <td></td>
+            </tr>
+            <footer>
+                <tr>
+                    <td colspan="3">And these are all of the math classes I took in undergrad! Some were more fun
+                        than others (mainly becuase they had better professors), but I still had a great time learning
+                        about the field and would love to go back and take additional courses if I ever got the chance.
+                    </td>
+
+                </tr>
+            </footer>
+        </table>
+    </section>
+
+    <br><br><br>
+
+    <abbr title="Back to Main Page">
+        <a href="index.html">Back to home page
+</body>
+
+</html>
