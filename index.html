@@ -6,32 +6,42 @@
         <meta name="author" content="Adam P">
         <meta name="description" content="This page contains everything I'm doing while learning html.">
         <title>My First Web Page</title>    
-        <link rel="icon" href="hacker.png" type="image/x-icon">
+        <link rel="icon" href="icons/hacker.png" type="image/x-icon">
         <link rel="stylesheet" href="main.css" type="text/css">
     </head>
 
     <body>
+       <div id="top"></div> 
         <h1>Adam Prieto -- Portfolio Website</h1>
         <hr>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#personalInfo">Personal Info.</a>
-                </li>
-                <li>
-                    <a href="#aboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#webDevJourney">Web Dev Journey</a>
-                </li>
-                <li>
-                    <a href="#travelDestinations">Places to Visit</a>
-                </li>
-                <li>
-                    <a href="#badPlaces">Places to Avoid</a>
-                </li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#aboutMe">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#Internship">Internship</a>
+                    </li>
+                    <li>
+                        <a href="#webDevJourney">Web Dev Journey</a>
+                    </li>
+                    <li>
+                        <a href="#travelDestinations">Places to Visit</a>
+                    </li>
+                    <li>
+                        <a href="#badPlaces">Places to Avoid</a>
+                    </li>
+                    <li>
+                        <a href="#Table Tutorial">Tables</a>
+                    </li>
+                    <li>
+                        <a href="#Contact Me">Contact Me</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
 
         <section id="personalInfo">
             <h2> External Links</h2>
@@ -40,7 +50,8 @@
             <abbr title="LinkedIn">
                 <a href="https://www.linkedin.com/in/adam-prieto-63695b14a/">LinkedIn Profile</a>
             </abbr>
-            <br>
+
+            <br><br>
 
             <!--Link 2: Github Profile--> 
             <abbr title="Github Profile">
@@ -60,7 +71,7 @@
             </figure>
                 <p>
                     As one of the few -- true -- Colorado natives out there, I'm proud to say that I was born in the heart of downtown Denver and would spend my formative years growing up in different parts of the state.
-                    After Graduating High School, I decided to enroll in my local community college to pursue an interest in mathematics that I gained while in my K-12 education.
+                    After Graduating High School, I enrolled in my local community college to pursue a mathematics interest that I gained during my K-12 education.
                     It was during my time at Front Range that I saw and began to appreciate the overlap between Math and Computer Science, and decided to pursue degrees in both.
                     After two years of introductory study, I transfered to the Metropolitan State University of Denver (MSU Denver) and earned joint Bachelor's degrees, graduating in 2023.
                     Then, because I'm a glutton for punishment, I decided to enroll in graduate school at the University of Colorado, Boulder in Computer Science.
@@ -90,7 +101,7 @@
                     Prior to my internship, I had no experience in web development, and came to Seattle expecting there to be 
                     a mix of on the job training as well as guidance from my team members to help me with my project. Although I did
                     get this (to some degree) I couldn't help but feel that there were other, better ways of learning web development, 
-                    that would lead to long term understanding and a deepre appreciation for the field. That's why I'm here now. I'm 
+                    that would lead to long term understanding and a deeper appreciation for the field. That's why I'm here now. I'm 
                     creating a default web development project from scratch to document my journey and gain the understanding that a 
                     12 week internship couldn't provide. So, without further ado, please join me on my adventure.  
                 </p>
@@ -147,6 +158,85 @@
         <dt>South Dakota</dt>
         <li>Sorry Mount Rushmore.</li>
     </section>
-    <p><a href="#">Back to Top</a></p>
-    </body>
-</html>
+
+    <section id="Table Tutorial">
+        <h2>Section on Tables</h2>
+            <p>
+                Since I'm just starting to learn about HTML, I think including a dedicated web page for tables would be
+                beneficial for getting the point across. Please click the link below for said web page. 
+            </p>
+            <abbr title="Table web page">
+                <a href="tableWebPage.html">Table Web Page</a>
+            </abbr>
+     
+    </section>
+
+    <br><br><br>
+
+    <section id="Contact Me">
+        <h2>
+            Contact Me
+        </h2>
+        <p>I'd really like to hear from you!</p>
+
+
+        <form action="https:httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Info</legend> 
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="John" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" 
+                    placeholder="Doe" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="emailAddress">Email Address:</label>
+                    <input type="text" name="emailAddress" id="emailAddress" 
+                    placeholder="emample@gmail.com" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" 
+                    placeholder="123-456-7890" 
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </p>
+                <p>
+                    <label for="favoriteMathematician"> Favorite mathematician</label>
+                        <select name="mathematician" id="mathematician">
+                            
+                            <optgroup label="Antiquity"> 
+                                <option value="Euclid">Euclid</option>
+                                <option value="Archimedes">Archimedes</option>
+                                <option value="Pythagoras">Pythagoras</option>
+                                <option value="Diophantus">Diophantus</option>
+                                <option value="Hypatia"></option>
+                            </optgroup>
+                            
+                            <optgroup label="Scientific Revolution">
+                                <option value="Newton">Newton</option>
+                                <option value="Leibniz">Leibniz</option>
+                                <option value="Huygens">Huygens</option>
+                                <option value="Halley">Helley</option>
+                                <option value="Bernoullis">Bernoullis</option>
+                            </optgroup>
+                        
+                            <optgroup label="Modern Times">
+                                <option value="Von Neumann">Von Neumann</option>
+                                <option value="Hilbert">Hilbert</option>    
+                                <option value="Turing">Turing</option>    
+                                <option value="Wiles">Wiles</option>    
+                            </optgroup>
+                        </select>
+                </p>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+    <section id="topOfPageLink">
+        <h2>Back to Top</h2>
+        <a href="#top">Back to top</a>
+    </section>
+</body>
