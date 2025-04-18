@@ -1,0 +1,8 @@
+abbr {
+    font-size: 30px;
+}
+
+abbr:hover {
+    font-size: 36px;
+    color: red;
+}

@@ -3,20 +3,22 @@ html {
 }
 
 body {
-    background-color: black;
-    color: whitesmoke;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
 }
 
 a {
-    color: aliceblue;
+    color: lightblue;
 }
 
 a:visited {
-    color:lightgray;
+    color: red;
 }
 
 
-a:hover, a:active {
+a:hover,
+a:active {
     color: #eee;
 }
 
@@ -26,7 +28,8 @@ table {
     width: 1%;
 }
 
-th, td {
+th,
+td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
@@ -35,4 +38,90 @@ th, td {
 caption {
     font-weight: bold;
     margin: 10px 0;
+}
+
+p {
+    color: purple;
+    font-size: 24px;
+}
+
+li {
+    color: blue;
+}
+
+.gray {
+    color: gray;
+}
+
+p span {
+    text-transform: capitalize;
+    background-color: gold;
+}
+
+abbr:hover {
+    font-size: 28px;
+    color: red;
+}
+
+ol {
+    font-size: 20px;
+    color: crimson;
+}
+
+li {
+    color: aqua;
+    font-size: 24px;
+}
+
+.bullet-container {
+    border: 10px double lightblue;
+    font-size: 2px;
+    display: inline-block;
+    white-space: 10px;
+}
+
+.hyperlink {
+    text-decoration: underline;
+    color: lightblue;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited {
+    color: #ff0000e9;
+}
+
+a:hover, a:focus{
+    color: silver;
+    opacity: 0.7;
+}
+
+a:active {
+    color: green;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li:nth-child(even) {
+    color:teal;
+}
+
+ul li:nth-child(odd) {
+    color:yellow;
+}
+
+::marker{
+    color: rebeccapurple;
+    font-family: fantasy;
+    font-size: 1em;
 }

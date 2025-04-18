@@ -7,7 +7,7 @@
         <meta name="description" content="This page contains everything I'm doing while learning html.">
         <title>My First Web Page</title>    
         <link rel="icon" href="icons/hacker.png" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
@@ -15,7 +15,10 @@
         <h1>Adam Prieto -- Portfolio Website</h1>
         <hr>
         <header>
-            <nav>
+            <h2>
+                Welcome to my portforlio website! Please use the directory below when navigating this page.
+            </h2>
+            <nav class="bullet-container">
                 <ul>
                     <li>
                         <a href="#aboutMe">About Me</a>
@@ -43,12 +46,12 @@
             </nav>
         </header>
 
-        <section id="personalInfo">
+        <section id="personalInfo"></section>
             <h2> External Links</h2>
         
             <!--Link 1: LinkedIn Profile--> 
             <abbr title="LinkedIn">
-                <a href="https://www.linkedin.com/in/adam-prieto-63695b14a/">LinkedIn Profile</a>
+                <a href="https://www.linkedin.com/in/adam-prieto-63695b14a/">My LinkedIn Profile</a>
             </abbr>
 
             <br><br>
@@ -108,7 +111,7 @@
            
             <h3>Things I would like to learn</h3>
             <p>
-                <ol>
+                <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -119,7 +122,7 @@
                     <li>PostgreSQL</li>
                     <li>Github Actions</li>
                     <li>AWS Services</li>
-                </ol>
+                </ul>
             </p>
         </section>
 
@@ -156,7 +159,10 @@
         <br>
     
         <dt>South Dakota</dt>
-        <li>Sorry Mount Rushmore.</li>
+        <li>Sorry Mount Rushmore.</li><br>
+        
+        <dt>Delaware</dt>
+        <li>This state is a tax haven for corporations and everyone knows it.</li>
     </section>
 
     <section id="Table Tutorial">
@@ -212,7 +218,7 @@
                                 <option value="Archimedes">Archimedes</option>
                                 <option value="Pythagoras">Pythagoras</option>
                                 <option value="Diophantus">Diophantus</option>
-                                <option value="Hypatia"></option>
+                                <option value="Hypatia">Hypatia</option>
                             </optgroup>
                             
                             <optgroup label="Scientific Revolution">
@@ -239,4 +245,13 @@
         <h2>Back to Top</h2>
         <a href="#top">Back to top</a>
     </section>
+    
+
+    <!--Load Page at the top each time-->
+    <script>
+        window.onload = function () {
+          window.scrollTo(0, 0);
+        };
+      </script>
+      
 </body>
